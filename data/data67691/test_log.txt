@@ -1,0 +1,9 @@
+2021-01-12 22:54:05.739531
+# python3 src/main.py test --model-path-base model/model_dev=0.0772/
+Loading data...
+Loading model...
+initializing vacabularies... done.
+Sequence(6): ['<START>', '<STOP>', 'A', 'C', 'G', 'U']
+Brackets(5): ['<START>', '<STOP>', '(', ')', '.']
+#  Dev Average Loss: 0.0772 (MSE) -> 0.2778 (RMSD)
+# Test Average Loss: 0.0445 (MSE) -> 0.2111 (RMSD)

@@ -1,0 +1,81 @@
+2021-05-12 13:40:41.025758
+# python3 src/main.py train --model-path-base model
+# Training set contains 4750 Sequences.
+# Validation set contains 250 Sequences.
+# Paddle: Using device: CUDAPlace(0)
+# Initializing model...
+initializing vacabularies... done.
+Sequence(6): ['<START>', '<STOP>', 'A', 'C', 'G', 'U']
+Brackets(5): ['<START>', '<STOP>', '(', ')', '.']
+# Checking validation 10 times an epoch (every 475 batches)
+# Epoch 1 starting.
+epoch 1 batch 1 processed 1 batch-loss 0.2189 epoch-elapsed 0h00m00s total-elapsed 0h00m04s 
+epoch 1 batch 2 processed 2 batch-loss 0.1878 epoch-elapsed 0h00m00s total-elapsed 0h00m04s 
+epoch 1 batch 3 processed 3 batch-loss 0.2259 epoch-elapsed 0h00m00s total-elapsed 0h00m04s 
+epoch 1 batch 4 processed 4 batch-loss 0.2033 epoch-elapsed 0h00m00s total-elapsed 0h00m04s 
+epoch 1 batch 5 processed 5 batch-loss 0.2201 epoch-elapsed 0h00m01s total-elapsed 0h00m05s 
+epoch 1 batch 6 processed 6 batch-loss 0.2206 epoch-elapsed 0h00m01s total-elapsed 0h00m05s 
+epoch 1 batch 7 processed 7 batch-loss 0.2026 epoch-elapsed 0h00m01s total-elapsed 0h00m05s 
+epoch 1 batch 8 processed 8 batch-loss 0.2187 epoch-elapsed 0h00m01s total-elapsed 0h00m05s 
+epoch 1 batch 9 processed 9 batch-loss 0.2143 epoch-elapsed 0h00m01s total-elapsed 0h00m05s 
+epoch 1 batch 10 processed 10 batch-loss 0.2183 epoch-elapsed 0h00m02s total-elapsed 0h00m06s 
+epoch 1 batch 11 processed 11 batch-loss 0.2130 epoch-elapsed 0h00m02s total-elapsed 0h00m06s 
+epoch 1 batch 12 processed 12 batch-loss 0.2179 epoch-elapsed 0h00m02s total-elapsed 0h00m06s 
+epoch 1 batch 13 processed 13 batch-loss 0.2330 epoch-elapsed 0h00m02s total-elapsed 0h00m06s 
+epoch 1 batch 14 processed 14 batch-loss 0.2232 epoch-elapsed 0h00m02s total-elapsed 0h00m06s 
+epoch 1 batch 15 processed 15 batch-loss 0.1971 epoch-elapsed 0h00m02s total-elapsed 0h00m06s 
+epoch 1 batch 16 processed 16 batch-loss 0.1919 epoch-elapsed 0h00m03s total-elapsed 0h00m07s 
+epoch 1 batch 17 processed 17 batch-loss 0.1845 epoch-elapsed 0h00m03s total-elapsed 0h00m07s 
+epoch 1 batch 18 processed 18 batch-loss 0.1756 epoch-elapsed 0h00m03s total-elapsed 0h00m07s 
+epoch 1 batch 19 processed 19 batch-loss 0.2241 epoch-elapsed 0h00m03s total-elapsed 0h00m07s 
+epoch 1 batch 20 processed 20 batch-loss 0.2204 epoch-elapsed 0h00m03s total-elapsed 0h00m07s 
+epoch 1 batch 21 processed 21 batch-loss 0.2264 epoch-elapsed 0h00m03s total-elapsed 0h00m07s 
+epoch 1 batch 22 processed 22 batch-loss 0.1991 epoch-elapsed 0h00m03s total-elapsed 0h00m07s 
+epoch 1 batch 23 processed 23 batch-loss 0.2336 epoch-elapsed 0h00m03s total-elapsed 0h00m07s 
+epoch 1 batch 24 processed 24 batch-loss 0.2168 epoch-elapsed 0h00m04s total-elapsed 0h00m08s 
+epoch 1 batch 25 processed 25 batch-loss 0.2207 epoch-elapsed 0h00m04s total-elapsed 0h00m08s 
+epoch 1 batch 26 processed 26 batch-loss 0.2035 epoch-elapsed 0h00m04s total-elapsed 0h00m08s 
+epoch 1 batch 27 processed 27 batch-loss 0.2133 epoch-elapsed 0h00m04s total-elapsed 0h00m08s 
+epoch 1 batch 28 processed 28 batch-loss 0.2210 epoch-elapsed 0h00m04s total-elapsed 0h00m08s 
+epoch 1 batch 29 processed 29 batch-loss 0.2162 epoch-elapsed 0h00m04s total-elapsed 0h00m08s 
+epoch 1 batch 30 processed 30 batch-loss 0.2223 epoch-elapsed 0h00m05s total-elapsed 0h00m09s 
+epoch 1 batch 31 processed 31 batch-loss 0.2235 epoch-elapsed 0h00m05s total-elapsed 0h00m09s 
+epoch 1 batch 32 processed 32 batch-loss 0.2076 epoch-elapsed 0h00m05s total-elapsed 0h00m09s 
+epoch 1 batch 33 processed 33 batch-loss 0.2024 epoch-elapsed 0h00m05s total-elapsed 0h00m09s 
+epoch 1 batch 34 processed 34 batch-loss 0.2153 epoch-elapsed 0h00m05s total-elapsed 0h00m09s 
+epoch 1 batch 35 processed 35 batch-loss 0.2099 epoch-elapsed 0h00m05s total-elapsed 0h00m09s 
+epoch 1 batch 36 processed 36 batch-loss 0.2023 epoch-elapsed 0h00m05s total-elapsed 0h00m09s 
+epoch 1 batch 37 processed 37 batch-loss 0.2232 epoch-elapsed 0h00m06s total-elapsed 0h00m10s 
+epoch 1 batch 38 processed 38 batch-loss 0.2079 epoch-elapsed 0h00m06s total-elapsed 0h00m10s 
+epoch 1 batch 39 processed 39 batch-loss 0.2055 epoch-elapsed 0h00m06s total-elapsed 0h00m10s 
+epoch 1 batch 40 processed 40 batch-loss 0.2025 epoch-elapsed 0h00m06s total-elapsed 0h00m10s 
+epoch 1 batch 41 processed 41 batch-loss 0.2248 epoch-elapsed 0h00m06s total-elapsed 0h00m10s 
+epoch 1 batch 42 processed 42 batch-loss 0.2072 epoch-elapsed 0h00m06s total-elapsed 0h00m10s 
+epoch 1 batch 43 processed 43 batch-loss 0.2107 epoch-elapsed 0h00m06s total-elapsed 0h00m10s 
+epoch 1 batch 44 processed 44 batch-loss 0.2194 epoch-elapsed 0h00m07s total-elapsed 0h00m11s 
+epoch 1 batch 45 processed 45 batch-loss 0.1972 epoch-elapsed 0h00m07s total-elapsed 0h00m11s 
+epoch 1 batch 46 processed 46 batch-loss 0.1819 epoch-elapsed 0h00m07s total-elapsed 0h00m11s 
+epoch 1 batch 47 processed 47 batch-loss 0.1911 epoch-elapsed 0h00m07s total-elapsed 0h00m11s 
+epoch 1 batch 48 processed 48 batch-loss 0.2107 epoch-elapsed 0h00m07s total-elapsed 0h00m11s 
+epoch 1 batch 49 processed 49 batch-loss 0.1512 epoch-elapsed 0h00m07s total-elapsed 0h00m11s 
+epoch 1 batch 50 processed 50 batch-loss 0.1901 epoch-elapsed 0h00m07s total-elapsed 0h00m11s 
+epoch 1 batch 51 processed 51 batch-loss 0.1936 epoch-elapsed 0h00m08s total-elapsed 0h00m11s 
+epoch 1 batch 52 processed 52 batch-loss 0.1962 epoch-elapsed 0h00m08s total-elapsed 0h00m12s 
+epoch 1 batch 53 processed 53 batch-loss 0.1924 epoch-elapsed 0h00m08s total-elapsed 0h00m12s 
+epoch 1 batch 54 processed 54 batch-loss 0.2275 epoch-elapsed 0h00m08s total-elapsed 0h00m12s 
+epoch 1 batch 55 processed 55 batch-loss 0.1977 epoch-elapsed 0h00m08s total-elapsed 0h00m12s 
+epoch 1 batch 56 processed 56 batch-loss 0.2144 epoch-elapsed 0h00m08s total-elapsed 0h00m12s 
+epoch 1 batch 57 processed 57 batch-loss 0.1948 epoch-elapsed 0h00m09s total-elapsed 0h00m13s 
+epoch 1 batch 58 processed 58 batch-loss 0.1993 epoch-elapsed 0h00m09s total-elapsed 0h00m13s 
+epoch 1 batch 59 processed 59 batch-loss 0.2186 epoch-elapsed 0h00m09s total-elapsed 0h00m13s 
+epoch 1 batch 60 processed 60 batch-loss 0.1905 epoch-elapsed 0h00m09s total-elapsed 0h00m13s 
+epoch 1 batch 61 processed 61 batch-loss 0.2148 epoch-elapsed 0h00m09s total-elapsed 0h00m13s 
+epoch 1 batch 62 processed 62 batch-loss 0.1968 epoch-elapsed 0h00m10s total-elapsed 0h00m14s 
+epoch 1 batch 63 processed 63 batch-loss 0.1934 epoch-elapsed 0h00m10s total-elapsed 0h00m14s 
+epoch 1 batch 64 processed 64 batch-loss 0.1935 epoch-elapsed 0h00m10s total-elapsed 0h00m14s 
+epoch 1 batch 65 processed 65 batch-loss 0.2298 epoch-elapsed 0h00m10s total-elapsed 0h00m14s 
+epoch 1 batch 66 processed 66 batch-loss 0.1970 epoch-elapsed 0h00m10s total-elapsed 0h00m14s 
+epoch 1 batch 67 processed 67 batch-loss 0.1793 epoch-elapsed 0h00m10s total-elapsed 0h00m14s 
+epoch 1 batch 68 processed 68 batch-loss 0.2281 epoch-elapsed 0h00m11s total-elapsed 0h00m14s 
+epoch 1 batch 69 processed 69 batch-loss 0.1924 epoch-elapsed 0h00m11s total-elapsed 0h00m15s 
+epoch 1 batch 70 processed 70 batch-loss 0.1790 epoch-elapsed 0h00m11s total-elapsed 0h00m15s 
